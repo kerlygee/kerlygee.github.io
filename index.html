@@ -1,73 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Kerly Sousa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
-<style>
-   body {
-       background-color: #41292C;
-       color:white;
-    }
-    .imagem-kerly {
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 0 0 1em #D72483;
-    }
-    .centralizar {
-        text-align:center;
-    }
-
-</style>
-<body>
-    
-    <p id="inicio"><h1 class= "centralizar">Kerly Geyse Nascimento Sousa</h1></p><br>
-    
-    <p id="kerly"><img class="imagem-kerly" src ="kerly.jpeg" width="250px" alt ="Imagem de Kerly Sousa"/></p><br>
-
-    <p><h2>Índice</h2></p>
-   
-     <ol>
-        <li><a href="#sobre mim">Sobre mim;</a></li>
-        <li><a href="#habilidades">Habilidades;</a></li>
-        <li><a href="#hobies">Hobies;</a></li>
-        <li><a href="#metas">Metas;</li>
-        <li><a href="#redes sociais">Redes Sociais.</a></li>
-     </ol>
-   
-     
-    <p id="sobre mim"><h3>Sobre mim</h3></p><br> <p><em>Oi, tudo bem? Eu sou a <a href="#kerly">kerly</a>, tenho 27 anos e moro em São Luís - Ma. Atualmente sou estudante de<strong> Desenvolvimento Web </strong> na <a href="https://www.betrybe.com/" target="_blank" style="color:green">Trybe</a>.<br>
-    Sou casada e tenho um filho de 3 anos. <br> Nas horas vagas amo assistir à Filmes, séries e animes.</em></p><br>
-
-    <p id="habilidades"><h3>Habilidades</h3></p><br>
-    <ul>
-     <li>Boa comunicação;</li>
-     <li>Capacidade de adaptação;</li>
-     <li><strong>Facilidade em aprendizagem;</strong></li>
-     <li>Esforçada;</li>
-     <li>Proatividade;</li>
-     <li>Espirito de coletividade;</li>
-     <li>Resolução de problemas.</li>
-
-    </ul>
-
-    <p id="hobies"><h3>Hobbies</h3></p>
-    <ul>
-       <li>Assistir à filmes, animes e séries;</li>
-       <li>Ler;</li>
-       <li>Assistir à videos no YouTube;</li>
-       <li>Ir ao cinema.</li>
-    </ul>
-
-    <p id="metas"><h3>Metas</h3></p>
-     <p><em>Me tornar programadora Full Stack e atuar na área com excelência, buscando sempre a melhoria de forma constante.</em></p>
-
-    <p id ="redes sociais"><h3>Redes Sociais</h3></p>
-     <a href="https://www.linkedin.com/in/kerlygee/" target="_blank" style="padding:5px"><img src="linkedin.png" width="30px"/></a>
-     <a href="https://www.instagram.com/kerlygee/" target="_blank" style="padding:5px"><img src="instagram.png" width="30px"></a>
-     <a href="https://twitter.com/kerlygee" target="_blank" style="padding:5px"><img src="twitter.png" width="30px"></a>
-    <p><a href="#inicio"> Voltar ao inicio da página</a></p>
+<body id="body">
+    <header id="cabecalho">
+        <nav id="redes-sociais">
+            <a href="https://www.linkedin.com/in/kerlygee/" target="_blank" style="padding:5px"><img src="linkedin.png"
+                    width="30px" /></a>
+            <a href="https://www.instagram.com/kerlygee/" target="_blank" style="padding:5px"><img src="instagram.png"
+                    width="30px"></a>
+            <a href="https://twitter.com/kerlygee" target="_blank" style="padding:5px"><img src="twitter.png"
+                    width="30px"></a>
+        </nav>
+        <nav>
+        <ul id="lista">
+            <li><a href="#sobre mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#metas">Metas</a></li>
+            <li><a href="#redes-sociais">Redes Sociais</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <aside id="perfil">
+            <img id="imagem-kerly" src="kerly.jpeg" width="250px" alt="Imagem de Kerly Sousa" /> 
+            <P id="nome">Kerly Geyse Nascimento Sousa</P>
+        </aside>
+        <article id="texto">
+            <section>
+                <h3 class="titulo" id="sobre mim">Sobre mim</h3>
+                <p> Oiê, tudo bem? Eu sou a Kerly, tenho 27 anos, moro em São Luís -Ma.
+                    <br> E sou uma programadora em construção na Trybe. </p>
+            </section>
+            <section>
+                <h3 class="titulo" id="habilidades">Habilidades</h3>
+                <ul class="lista">
+                    <li>Boa comunicação;</li>
+                    <li>Capacidade de adaptação;</li>
+                    <li>Facilidade em aprendizagem;</li>
+                    <li>Esforçada;</li>
+                    <li>Proativa;</li>
+                    <li>Espirito de coletividade;</li>
+                    <li>Resolução de problemas.</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="titulo" id="hobby">Hobby</h3>
+                <ul class="lista">
+                    <li>Assistir à filmes, animes e séries;</li>
+                    <li>Ler;</li>
+                    <li>Assistir à videos no YouTube;</li>
+                    <li>Ir ao cinema.</li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="titulo" id="metas">Metas</h3>
+                <p><em>Me tornar programadora Full Stack e atuar na área com excelência, buscando sempre a melhoria de
+                        forma
+                        constante.</em></p>
+            </section>
+        </article>
+    </main>
+    <footer id="rodape">
+        <p>© Kerly Sousa - Web Development Student | Trybe - Turma 19 C</p>
+    </footer>
 </body>
 </html>
